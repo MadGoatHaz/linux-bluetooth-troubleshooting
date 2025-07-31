@@ -1,0 +1,14 @@
+# Security: Never commit actual credentials
+archwiki_credentials.conf
+*.conf
+!*.conf.sample
+
+# Temporary files
+*.tmp
+*.log
+/tmp/
+
+# IDE files
+*.swp
+*.swo
+*~
